@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="submit" id="btnSubmit">
+<script src="/jquery-1.12.4.js"></script>
+<script type="text/javascript">
+    $(function () {
+    $('#btnSubmit').click(function () {
+        $.ajax({
+            type: 'post',
+            headers: {
+                'remoteHost': 'http://localhost:Clinic'
+            },
+            url: 'sss',
+            data: {'name':'hello'},
+            success: function (data) {
+                console.log(data);
+                alert(data);
+            }
+        })
+    }) });
+    </script>
+</body>
+</html>

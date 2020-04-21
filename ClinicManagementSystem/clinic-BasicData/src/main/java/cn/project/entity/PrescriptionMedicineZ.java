@@ -1,0 +1,130 @@
+package cn.project.entity;
+
+public class PrescriptionMedicineZ {
+    private Integer id;
+    private Integer medicineId;
+    private String medicineName;
+    private String singleDose;
+    private Integer usageId;
+    private String usageName;
+    private String frequency;
+    private Integer totalDays;
+    private String totalDosage;
+    private Integer prescriptionTypeId;
+    private String prescriptionTypeName;
+    private Integer agent;
+    private double unitPrice;
+    private double amount;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getMedicineId() {
+        return medicineId;
+    }
+
+    public void setMedicineId(Integer medicineId) {
+        this.medicineId = medicineId;
+    }
+
+    public String getMedicineName() {
+        return medicineName;
+    }
+
+    public void setMedicineName(String medicineName) {
+        this.medicineName = medicineName;
+    }
+
+    public String getSingleDose() {
+        return singleDose;
+    }
+
+    public void setSingleDose(String singleDose) {
+        this.singleDose = singleDose;
+    }
+
+    public Integer getUsageId() {
+        return usageId;
+    }
+
+    public void setUsageId(Integer usageId) {
+        this.usageId = usageId;
+    }
+
+    public String getUsageName() {
+        return usageName;
+    }
+
+    public void setUsageName(String usageName) {
+        this.usageName = usageName;
+    }
+
+    public String getFrequency() {
+        return frequency;
+    }
+
+    public void setFrequency(String frequency) {
+        this.frequency = frequency;
+    }
+
+    public Integer getTotalDays() {
+        return totalDays;
+    }
+
+    public void setTotalDays(Integer totalDays) {
+        this.totalDays = totalDays;
+    }
+
+    public String getTotalDosage() {
+        return totalDosage;
+    }
+
+    public void setTotalDosage(String totalDosage) {
+        this.totalDosage = totalDosage;
+    }
+
+    public Integer getPrescriptionTypeId() {
+        return prescriptionTypeId;
+    }
+
+    public void setPrescriptionTypeId(Integer prescriptionTypeId) {
+        this.prescriptionTypeId = prescriptionTypeId;
+    }
+
+    public String getPrescriptionTypeName() {
+        return prescriptionTypeName;
+    }
+
+    public void setPrescriptionTypeName(String prescriptionTypeName) {
+        this.prescriptionTypeName = prescriptionTypeName;
+    }
+
+    public Integer getAgent() {
+        return agent;
+    }
+
+    public void setAgent(Integer agent) {
+        this.agent = agent;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public double getUnitPrice() {
+        return unitPrice;
+    }
+
+    public void setUnitPrice(double unitPrice) {
+        this.unitPrice = unitPrice;
+    }
+}
